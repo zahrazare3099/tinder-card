@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-
+import CardsPage from "./components/CardsPage";
+import "./App.css";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App root>div w-100 m-0 p-0 d-flex flex-column">
+      <h1 className="text-center m-0 w-100 header-title py-3 text-white">
+        tinder app swipe cards
+      </h1>
+      <CardsPage />
     </div>
   );
 }
