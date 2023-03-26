@@ -39,6 +39,7 @@ export const objs = [
     translationExample: "تخت خواب راحت نبود",
     id: 4,
   },
+  
   {
     pics: [
       "https://images.unsplash.com/photo-1554906493-4812e307243d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80",

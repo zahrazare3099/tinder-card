@@ -56,6 +56,7 @@ function CardsPage() {
     <div className="CardsPage w-100 pt-2 d-flex flex-column align-items-center">
       <div className="cardPlace d-flex w-100 justify-content-center">
         {props.map(({ x, y, rot, scale }, i) => (
+          
           <Card
             i={i}
             x={x}

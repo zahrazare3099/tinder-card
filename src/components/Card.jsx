@@ -39,6 +39,7 @@ class Card extends Component {
             <h4 className="font-weight-bold m-0 py-2">{wordMeaning}</h4>
             <h5 className="font-weight-light m-0 py-1">{example}</h5>
             <h5 className="font-weight-light m-0 pb-2 pt-1">
+              
               {translationExample}
             </h5>
           </div>
